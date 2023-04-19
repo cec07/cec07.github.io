@@ -1,0 +1,150 @@
+/*Larger Resolution*/
+@media(min-width:720px){
+/*Main Structure*/
+#content{
+    margin:auto;
+    width:80%;
+    font-family:Arial;
+    padding:5px;
+    border:3px solid black;
+}
+body{
+    font-family:arial;
+    background-image:url(images/background7.jpg);
+}
+header{
+    background:#EBD4B0;
+    color:#9E8357;
+    padding:5px;
+    text-align:center;
+}
+nav{
+    background:#EBD4B0;
+    padding:5px;
+    text-align:center;
+}
+main{
+    background:#AFCDEA;
+    padding:5px;
+    border:4px solid #4DA5F7;
+}
+main h2{
+    text-align:center;
+    color:#9E8357;
+    text-decoration:underline;
+}
+footer{
+    background:#EBD4B0;
+    padding:5px;
+    text-align:center;
+    color:#9E8357;
+}
+#textbox{
+      width:400px;
+      height:150px;
+}
+/*Navigation*/
+#main-nav ul{
+   list-style-type:none;
+}
+#main-nav li{
+    display:inline;
+    background:#67839E;
+}
+#main-nav a{
+    text-decoration:none;
+    color:white;
+    padding:5px;
+}
+#main-nav a:hover{
+    background:#AFCDEA;
+    color:black;
+}
+/*Slideshow*/
+.slideshow{
+    text-align:center;
+}
+.slideshow img{
+    width:800px;
+    height:300px; 
+}
+/*Layout*/
+.hidden{
+    display:none;
+}
+}
+/*Smaller Resolution*/
+@media(max-width:720px){
+/*Main Structure*/
+#content{
+    font-family:Arial;
+    padding:5px;
+    border:2px solid black;
+}
+strong{
+    text-decoration:underline;
+}
+body{
+    font-family:Arial;
+}
+header{
+    background:#EBD4B0;
+    color:#9E8357;
+    padding:5px;
+    text-align:center;
+}
+nav{
+    background:#EBD4B0;
+    padding:5px;
+    text-align:center;
+}
+main{
+    background:#AFCDEA;
+    padding:5px;
+    border:4px solid #4DA5F7;
+}
+main h2{
+    text-align:center;
+    color:#9E8357;
+    text-decoration:underline;
+}
+footer{
+    background:#EBD4B0;
+    padding:5px;
+    text-align:center;
+    color:#9E8357;
+}
+#textbox{
+      width:300px;
+      height:100px;
+}
+/*Navigation*/
+#main-nav ul{
+   list-style-type:none;
+   padding-left:0;
+}
+#main-nav a{
+    text-decoration:none;
+    color:white;
+    padding:5px;
+    display:block;
+    text-align:left;
+    border-bottom:2px solid black;
+    background:#67839E;
+}
+#main-nav a:hover{
+    background:#AFCDEA;
+    color:black;
+}
+/*Slideshow*/
+.slideshow{
+    text-align:center;
+}
+.slideshow img{
+    width:500px;
+    height:200px;
+}
+/*Layout*/
+.hidden{
+    display:none;
+}

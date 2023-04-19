@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Project</title>
+    <!--Catherine Carr, CSCE 102, Section 14, 1/18/23-->
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1><strong>Quiz</strong></h1>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="contact.html">Contact Me</a></li>&nbsp;
+        </ul>
+    </nav>
+    <main>
+        <h3>Website Development Quiz</h3>
+        <p>
+            <label for="Q1">Which allows for styling of columns?</label>
+            <select id="Q1">
+                <option></option>
+                <option>display:flex;</option>
+                <option>margin:5px;</option>
+                <option>padding:5px;</option>
+                <option>background:blue;</option>
+            </select>
+        </p>
+        <p>
+            <label for="Q2">What allows a function to occur when the mouse pointer is over the selected element?</label>
+            <select id="Q2">
+                <option></option>
+                <option>onmouseout</option>
+                <option>button</option>
+                <option>onmouseover</option>
+                <option>classList.add</option>
+            </select>
+        </p>
+        <p>
+            <label for="Q3">Where would a function such as "function showHometown() be called?</label>
+            <select id="Q3">
+                <option></option>
+                <option>styles.css</option>
+                <option>index.html</option>
+                <option>stylesheet</option>
+                <option>script.js</option>
+            </select>
+        </p>
+        <p>
+            <label for="Q4">What is the html code for a link?</label>
+            <select id="Q4">
+                <option></option>
+                <option>innerHTML=" "</option>
+                <option>a href=" "</option>
+                <option>p id=" "</option>
+                <option>setAttribute()</option>
+            </select>
+        </p>
+        <button onclick="showResult()">Submit</button>
+        <div id="results"class="hidden">
+            <h3>Quiz Results</h3>
+            <p id="result1"></p>
+            <p id="result2"></p>
+            <p id="result3"></p>
+            <p id="result4"></p>
+            <p>Score:</p>
+            <p id="score"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; My copyright</p>
+    </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
